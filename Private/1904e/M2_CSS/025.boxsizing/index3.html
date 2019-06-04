@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<pre style="font-size: 24px;">
+    thuộc tính box-sizing sẽ có 1 giá trị chính
+    1 : content-box
+    2 : border-box
+    giá trị mặc định là content-box
+
+    ***
+    khi mà đặt thuộc tính width và height cho 1 thẻ html thì
+    kích width và height không bao gồm padding và border
+    ví dụ width:100px; height:100px;
+    sau đó đặt padding và border cho thẻ nói trên
+    dẫn tới kích thước của thẻ sẽ tăng theo padding vào border
+    để tránh điều này thì sẽ sử dụng box-sizing:border-box;
+    lúc đó thuộc tính width và height của thẻ html sẽ bao gồm luôn cả padding và border
+    dẫn tới kích cỡ của thẻ sẽ không tăng lên khi thay đổi padding và border
+</pre>
+
+</body>
+</html>

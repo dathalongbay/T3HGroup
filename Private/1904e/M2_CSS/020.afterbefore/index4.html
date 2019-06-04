@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        .row {
+            background: orange;
+            width: 500px;
+            margin: 200px auto;
+            padding: 10px;
+        }
+
+        .row::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .col {
+            background: green;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="row">
+    <div class="col">Cột 1</div>
+</div>
+
+<pre>
+    Khi mà thẻ con float bị trượt khỏi thẻ mẹ
+    cách fix số 2 mình sẽ sử dụng ::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+</pre>
+</body>
+</html>

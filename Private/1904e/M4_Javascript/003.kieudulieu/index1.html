@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<pre>
+    Các kiểu dữ liệu trong js
+    1 - Kiểu số ( gọi là number bao gồm cả số nguyên và số thực ) 3 ( số nguyên ) 3.5 ( số thực )
+    2 - Kiểu chuỗi ( "hello world" )
+    3 - Kiểu boolean ( kiểu chứa 2 giá trị và true và false )
+    4 - Kiểu mảng ( danh sách các giá trị )
+    5 - Kiểu đối tượng
+    6 - Kiểu giá trị null
+    7 - Kiểu undefined ( có khai báo biến nhưng không khai báo giá trị )
+    Mình có cái từ khóa typeof để kiểm tra kiểu dữ liệu của biến
+</pre>
+
+<script type="text/javascript">
+
+    // kiểu number
+    var x = 5;
+    var y = 1.5;
+
+    // kiểu chuỗi
+    var username = "admin";
+
+    // dạng boolean
+    var gender1 = true;
+    var gender2 = false;
+
+    // dạng mảng
+    var listStudent = ["tuan", "son", "chi"];
+
+    // dạng object
+    var student = {name:"an", age: 20, location:"hà nội"};
+
+    // dạng null
+    var test1 = null;
+
+    // dạng undefined
+    var a;
+
+    // + toán tử nối chuỗi
+    /**
+     * chuỗi + chuỗi ( phép nối chuỗi )
+     * chuối + số ( phép nối chuỗi )
+     * số + số ( phép cộng )
+     */
+    console.log('giá trị của biến x : ' + x);
+    console.log('kiêu dữ liệu của x : ' + typeof x);
+
+
+    console.log('giá trị của biến y : ' + y);
+    console.log('kiêu dữ liệu của y : ' + typeof y);
+
+    console.log('giá trị của biến username : ' + username);
+    console.log('kiêu dữ liệu của username : ' + typeof username);
+
+    console.log('giá trị của biến gender1 : ' + gender1);
+    console.log('kiêu dữ liệu của gender1 : ' + typeof gender1);
+
+    console.log('giá trị của biến gender2 : ' + gender2);
+    console.log('kiêu dữ liệu của gender2 : ' + typeof gender2);
+
+    console.log('giá trị của biến listStudent : ' + listStudent);
+    console.log('kiêu dữ liệu của listStudent dạng mảng : ' + typeof listStudent);
+
+    console.log('giá trị của biến student : ' + student);
+    console.log('kiêu dữ liệu của student : ' + typeof student);
+
+    console.log('giá trị của biến test1 : ' + test1);
+    console.log('kiêu dữ liệu của test1 : ' + typeof test1);
+
+    console.log('giá trị của biến a : ' + a);
+    console.log('kiêu dữ liệu của a : ' + typeof a);
+
+
+</script>
+
+</body>
+</html>

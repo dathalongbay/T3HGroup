@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        .mienbac {
+            background-color: green;
+        }
+
+        .mientrung {
+            background-color: yellow;
+        }
+
+        .miennam {
+            background-color: orange;
+        }
+
+        .top1 {
+            color: red;
+        }
+
+        #hanoi {
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+<h1>Thuộc tính id trong html</h1>
+<pre>
+    - id trong html nó giống như là số chứng thư của 1 người
+    nó sẽ duy nhất trong trang html và không được phép trùng giữa các thẻ
+    id phải viết liền và không có dấu , không có ký tự đặc biệt như @ # $ ...
+    tốt nhất chỉ nên có các chữ cái và các chữ số
+    - class được sử dụng để gom nhóm giữa các thẻ html mà có các điểm chung
+    1 thẻ html thì sẽ có 1 hoặc nhiều class khác nhau
+    các class thì cần phân tách bằng dấu cách ví dụ : "mienbac top1 thudo"
+    quy tắc tên class viết liền và không có dấu , không có ký tự đặc biệt như @ # $ ...
+    tốt nhất chỉ nên có các chữ cái và các chữ số
+    - mục đích của thuộc tính class và id là để kết hợp với các ngôn ngữ như css và javascript
+    để thực hiện các tác vụ trên trang web
+    - trong css thì chọn class bằng dấu . ở đầu ví dụ .mienbac
+    - trong css để chọn id sẽ viết #id ví dụ #hanoi
+</pre>
+
+<div>
+    <div id="hanoi" class="mienbac top1">Ha noi</div>
+    <div id="bacgiang" class="mienbac">Bắc giang</div>
+    <div id="bacninh" class="mienbac">Bắc ninh</div>
+    <div id="hcm" class="miennam top1">TP Hồ chí minh</div>
+    <div id="cantho" class="miennam">Cần thơ</div>
+    <div id="danang" class="mientrung top1">Đà nẵng</div>
+    <div id="hatinh" class="mientrung">Hà tĩnh</div>
+</div>
+
+Bài tập :
+Các bạn tạo ra 1 danh sách các loài động vậy
+với các loại class :
+- động vật dưới nước : sea
+- động vật trên bờ
+các thẻ động vật dưới nước : màu nền là màu xanh
+động vật trên bờ : màu nền da cam
+thêm id cho các thẻ động vật
+riêng id con người thì sẽ có font-size to hơn các động vật khác
+sử dụng thẻ div hay thẻ p để làm bài tập trên
+</body>
+</html>

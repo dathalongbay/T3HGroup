@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+
+        ul {
+            list-style: none;
+        }
+
+        ul:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        ul li {
+            float: left;
+            background: orange;
+            padding: 12px;
+        }
+         li a {
+             color: white;
+             text-decoration: none;
+         }
+
+        li:nth-child(4) {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<pre>
+    - khi sử dụng thuộc tính float: left or right
+    thì thẻ đó sẽ kéo thẻ phía sau trôi sang trái hay sang phải
+    - thuộc tính clear sẽ ngăn chặn các thẻ trước nó bị float
+    clear: both = clear:left + clear:right
+</pre>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a> </li>
+            <li><a href="#">Giới thiệu</a> </li>
+            <li><a href="#">Liên hệ</a> </li>
+            <li><a href="#">Sản phẩm</a> </li>
+            <li><a href="#">Tin tức</a> </li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>

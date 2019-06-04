@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="normalize.css"/>
+    <style type="text/css">
+
+        #box-model0 {
+            background: orange;
+            color: white;
+            border: 2px solid red;
+            margin-bottom: 30px;
+        }
+
+        #box-model {
+            background: orange;
+            color: white;
+            border: 2px solid red;
+            /*
+            Nếu padding top == padding bottom
+            và padding-left == padding right
+            */
+            padding: 30px 50px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Padding tạo ra 1 vùng đêm bên trong đối tượng thẻ html</h1>
+<pre>
+    Nếu margin tạo ra khoảng cách bên ngoài thẻ html
+    thì padding sẽ tạo ra khoảng các bên trong thẻ html
+
+    Quy tắc viết tắt :
+    - nếu padding theo 4 hương top , bottom , right , left khác nhau thì áp dụng quy tắc kim đồng hồ
+    padding: A B C D; ( trong A là padding top , B là padding right , C là padding bottom , D là padding left )
+    - nếu padding top == padding bottom và padding left == padding right
+    padding: A B; ( A là padding top và bottom , B là padding left và padding right )
+    - nếu padding 4 hướng bằng nhau
+    padding: A; ( A là padding cho cả 4 hướng top left right bottm )
+    Quy tắc này cũng sẽ áp dụng tương tự cho margin
+</pre>
+
+<div id="box-model0">
+    Nội dung thẻ div không có padding
+</div>
+
+<div id="box-model">
+    Nội dung thẻ div có padding
+</div>
+
+</body>
+</html>

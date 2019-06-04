@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+
+        /**
+            Áp dụng mặc định
+            0px cho đến vô cực
+         */
+        #target {
+            background: green;
+            padding: 50px;
+        }
+
+        /**
+            600px cho đến vô cực
+         */
+        @media screen and (min-width: 600px){
+            #target {
+                background: yellow;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Media query trong CSS</h1>
+<pre>
+    Media query là kỹ thuật xây dựng những đoạn css áp dụng cho từng loại màn hình
+    có độ rộng khác nhau
+
+    @media screen and (min-width: 600px)
+    Cú pháp bắt đầu bằng @media
+    Tiếp theo kiểu màn hình screen or print
+    and : điều kiện ( tức là màn hình và 1 điều kiện đi kèm )
+    (min-width: 600px) : được hiểu là áp dụng màn hình có kích cỡ từ 600px trở lên
+    (max-width: 600px) : được hiểu là áp dụng màn hình có kích cỡ từ 600px trở xuống
+
+</pre>
+
+<div id="target">
+    Nội dung
+</div>
+</body>
+</html>

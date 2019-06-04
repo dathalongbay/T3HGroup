@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        nav ul li {
+            color: green;
+        }
+
+        /**
+            selector1 > selector2 : selector2 là con trực tiếp của selector 1
+            selector1 selector2 : selector 2 nằm trong selector1
+            hay nói cách khác selector2 có thể là con, cháu , chắt của selector1
+         */
+        nav > ul > li {
+            border-top: 1px solid orange;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Selector con và selector con trực tiếp</h1>
+
+<nav>
+    <ul>
+        <li>Trang chủ</li>
+        <li>Giới thiệu</li>
+        <li>Liên hệ</li>
+        <li>Tin tức
+            <ul>
+                <li>Thời sự</li>
+                <li>Kinh tế</li>
+                <li>Văn hóa</li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<ul></ul>
+</body>
+</html>
