@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script typeof="text/javascript" src="jquery-3.3.1.js"></script>
+
+    <style type="text/css">
+        .wrap {
+            background: #ccc;
+            width: 800px;
+            margin: 0 auto;
+            height: 500px;
+        }
+        .wrap p,div {
+            margin-top: 20px;
+            background: greenyellow;
+        }
+
+        div#click-event {
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrap">
+        <p>Click me !</p>
+
+        <div id="click-event">Im div id</div>
+
+        <div class="div-class">Im div class</div>
+
+
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('p').dblclick(function () {
+                alert('Clicked ! Hello jquery');
+            });
+
+            $('#click-event').dblclick(function () {
+                alert($(this).attr('id'));
+            });
+
+            $('.div-class').dblclick(function () {
+                alert($(this).attr('class'));
+            });
+        });
+    </script>
+</body>
+</html>

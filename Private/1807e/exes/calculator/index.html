@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+
+
+    <style type="text/css">
+
+        .calculator {
+            border: 1px solid #000;
+            width: 315px;
+            margin: 100px auto;
+            padding: 10px;
+        }
+        .calculator .output {
+            border: 1px solid #000;
+            background: #f9f9f9;
+        }
+        .input-ouput {
+            background: #f9f9f9;
+            padding: 20px;
+            border: none;
+            display: block;
+            font-size: 22px;
+        }
+        .control {
+            padding: 0px;
+        }
+        .control a {
+            display: inline-block;
+            padding: 10px 25px;
+            margin: 10px 0;
+            font-size: 20px;
+            background: #428bca;
+            color: #FFF;
+            text-decoration: none;
+        }
+        a.operator {
+            background: #5cb85c;
+        }
+        a.c {
+            background: red;
+        }
+        a.back {
+            background: orange;
+        }
+        a.other {
+            background: #5bc0de;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="calculator">
+        <div class="output">
+            <input name="output" class="input-ouput" value="">
+        </div>
+        <div class="control">
+            <a href="#" class="c" data-val="c">C</a>
+            <a href="#" class="back">Del</a>
+            <a href="#" class="operator">+</a>
+            <a href="#" class="operator">-</a>
+            <a href="#" class="operator">*</a>
+            <a href="#" class="operator">/</a>
+            <a href="#" data-val="9">9</a>
+            <a href="#" data-val="8">8</a>
+            <a href="#" data-val="7">7</a>
+            <a href="#" data-val="6">6</a>
+            <a href="#" data-val="5">5</a>
+            <a href="#" data-val="4">4</a>
+            <a href="#" data-val="3">3</a>
+            <a href="#" data-val="2">2</a>
+            <a href="#" data-val="1">1</a>
+            <a href="#" data-val="0">0</a>
+            <a href="#" class="other">.</a>
+            <a href="#" class="other" data-val="=">=</a>
+        </div>
+
+    </div>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('a').on('click', function (e) {
+                e.preventDefault();
+                var data = $(this).data('val');
+                if () {
+
+                }
+                var current = $('input[name="output"]').val();
+                current += data;
+                $('input[name="output"]').val(current);
+                console.log(txt);
+                if (txt == '=') {
+                    current.split(" ");
+                    console.log(11);
+                    $('input[name="output"]').val('');
+                }
+
+            });
+        });
+    </script>
+
+
+
+</body>
+</html>
+

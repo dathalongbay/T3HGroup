@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="normalize.css">
+    <style type="text/css">
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+        .container .menu {
+
+        }
+        .container .menu ul {
+            list-style: none;
+            overflow: hidden;
+
+            margin: 0;
+            padding: 0;
+        }
+        .container .menu ul li {
+            float: left;
+            background: orange;
+        }
+        .container .menu ul li a {
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+            border-right: 1px solid #FFF;
+        }
+        .container .menu ul li {
+            position: relative;
+        }
+
+        .container .menu > ul > li:hover ul.sub-menu {
+            display: block;
+        }
+        ul.sub-menu {
+            display: none;
+            width: 300px;
+            position: absolute;
+            z-index: 999;
+        }
+        ul.sub-menu li {
+            float: none !important;
+        }
+        .container .menu ul.sub-menu li a {
+            border-right: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#">Thời sự</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Thời sự 1</a></li>
+                        <li><a href="#">Thời sự 2</a></li>
+                        <li><a href="#">Thời sự 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">văn hóa</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">văn hóa 1</a></li>
+                        <li><a href="#">văn hóa 2</a></li>
+                        <li><a href="#">văn hóa 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">chính trị</a></li>
+                <li><a href="#">Thể thao</a></li>
+                <li><a href="#">Đời sống</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

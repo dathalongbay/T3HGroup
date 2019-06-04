@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            background: #ccc;
+        }
+        .dropdown-content {
+            background: greenyellow;
+            width: 200px;
+            padding: 20px;
+            position: absolute;
+            top: 30px;
+            left: 10px;
+            display: none;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="dropdown">
+    <span>Mouse over me</span>
+    <div class="dropdown-content">
+        <p>Hello World!</p>
+    </div>
+</div>
+
+</body>
+</html>
