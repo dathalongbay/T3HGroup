@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        // đại đa số các lệnh jquery đều ở trong document ready
+        //$(document).ready();
+
+        // callbackn là 1 hàm không có tên function (){}
+
+        $(document).ready(function (){
+            // Selector ID
+            $('#p1').css({'color':'red'});
+            // Selector Class
+            $('.c1').css({'color':'blue'});
+            // Selector ten thẻ
+            $('div').css({'color':'yellow'});
+        });
+    </script>
+</head>
+<body>
+
+    <p id="p1">Selector ID</p>
+    <p class="c1">Selector Class</p>
+    <div>Selector ten the</div>
+
+</body>
+</html>

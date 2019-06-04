@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function (){
+            // them css
+            $('nav').children().css({'border':'1px solid red'});
+            // them text thanh pho
+            $('nav').children('span').css({'border':'1px solid green'});
+
+
+            var length = $('nav').find('ul.menu > li').length;
+            alert(length);
+            $('nav').find('ul.menu > li').each(function (index, value) {
+
+                var text = $(value).children('a').text();
+                console.log(text);
+                text = 'Thanh pho ' + text;
+                $(value).children('a').text(text);
+            });
+        });
+    </script>
+</head>
+<body>
+<nav>
+    <span>Span 1</span>
+    <span>Span 2</span>
+    <span>Span 3</span>
+    <ul class="menu">
+        <li><a href="#">Ha noi</a>
+            <ul>
+                <li><a href="#">tay ho</a>
+                    <ul>
+                        <li><a href="#">Phuong 1</a> </li>
+                        <li><a href="#">Phuong 2</a> </li>
+                        <li><a href="#">Phuong 3</a> </li>
+                    </ul>
+                </li>
+                <li><a href="#">hoan kiem</a></li>
+                <li><a href="#">cau giay</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Ho chi minh</a>
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Da nang</a>
+            <ul>
+                <li><a href="#">Son tra</a></li>
+                <li><a href="#">Ngu Hanh Son</a></li>
+                <li><a href="#">Lien chieu</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Hai phong</a></li>
+        <li><a href="#">Cao bang</a></li>
+        <li><a href="#">Bac kan</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>

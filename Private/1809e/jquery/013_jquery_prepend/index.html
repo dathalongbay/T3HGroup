@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function (){
+           $('a#clickme').on('click', function (e) {
+               e.preventDefault();
+               // Inserts content at the end of the selected elements
+
+               // .prepend() Phương thức sẽ thêm nội dung ( html , text ) vào đầu bên trong của selector được chon
+               $('div#target').prepend('<p class="insert">Toi la the duoc them</p>');
+           });
+        });
+    </script>
+</head>
+<body>
+
+    <div id="target">The div</div>
+    <a href="#" id="clickme">Click</a>
+</body>
+</html>

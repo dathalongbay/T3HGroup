@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function (){
+            $('p').first().css({'background': 'red'});
+            $('p').last().css({'background': 'yellow'});
+            $('p').eq(3).css({'background': 'green'});
+            $('p').filter('.intro').css({'background': 'orange'});
+            $('div').not('.wrap').css({'background': 'pink'});
+        });
+    </script>
+</head>
+<body>
+
+<section class="container">
+    <p>The p 1</p>
+    <p>The p 2</p>
+    <p>The p 3</p>
+    <p>The p 4</p>
+    <p>The p 5</p>
+    <p class="intro">The p 6</p>
+    <p>The p 7</p>
+
+    <div>div 1</div>
+    <div class="wrap">div 2</div>
+    <div>div 3</div>
+
+
+</section>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .absolute {
+            background: red;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+        .relative {
+            width: 400px;
+            height: 400px;
+            background: greenyellow;
+            position: relative;
+            margin: 200px 100px;
+        }
+
+        .relative .absolute-child {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            height: 150px;
+            width: 150px;
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+
+  <!--  <div class="absolute">
+        Nhận thẻ body làm cha. Căn cứ vào body để đặt vị trí
+    </div>-->
+
+    <div class="relative">
+        cha postion:relative
+        <div class="absolute-child">con có position : absolute</div>
+    </div>
+
+</body>
+</html>

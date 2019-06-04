@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        // đại đa số các lệnh jquery đều ở trong document ready
+        //$(document).ready();
+
+        // callback là 1 hàm không có tên function (){}
+
+        $(document).ready(function (){
+            // Selector ID
+            $('a#click').on('click', function (e) {
+                // được sử dụng để ngăn hành động mặc định của đối tượng
+                e.preventDefault();
+
+                alert('Bạn đã click chuột');
+            });
+
+            $('a#dblclick').on('click', function (e) {
+                e.preventDefault();
+
+            });
+            $('a#dblclick').on('dblclick', function (e) {
+                // được sử dụng để ngăn hành động mặc định của đối tượng
+                e.preventDefault();
+
+                alert('Bạn đã double click chuột');
+            });
+
+            $(".thep").on('mouseenter', function () {
+                $(this).css({'color':'red'});
+            });
+
+            $(".thep").on('mouseleave', function () {
+                $(this).css({'color':'black'});
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <p><a id="click" href="https://www.w3schools.com/" target="_blank">Click me</a> </p>
+    <p><a id="dblclick" href="https://www.w3schools.com/" target="_blank">Double Click me</a> </p>
+    <p class="thep">P1</p>
+    <p class="thep">P2</p>
+    <p class="thep">P3</p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function (){
+            $('h1').siblings('p').css({'color': 'red'});
+        });
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <p>THe p 1</p>
+    <p>THe p 2</p>
+    <p>THe p 3</p>
+    <h1>The h1</h1>
+    <h2>The h2</h2>
+    <h3>The h3</h3>
+    <h4>The h4</h4>
+    <div>The div
+        <nav>
+            <ul>
+                <li><a href="#">Menu 1</a> </li>
+                <li><a href="#">Menu 2</a> </li>
+                <li><a href="#">Menu 3</a> </li>
+            </ul>
+        </nav>
+    </div>
+    <section>The div
+        <nav>
+            <ul>
+                <li><a href="#">Menu 1</a> </li>
+                <li><a href="#">Menu 2</a> </li>
+                <li><a href="#">Menu 3</a> </li>
+            </ul>
+        </nav>
+    </section>
+</div>
+
+</body>
+</html>

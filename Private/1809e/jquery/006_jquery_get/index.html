@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        // đại đa số các lệnh jquery đều ở trong document ready
+        //$(document).ready();
+
+        // callback là 1 hàm không có tên function (){}
+
+        $(document).ready(function (){
+            $('#div').on('click', function (e) {
+                e.preventDefault();
+                // html() lấy html bên trong bao gồm cả thẻ html và text
+                var html = $('div').html();
+                console.log(html);
+            });
+            $('#p').on('click', function (e) {
+                e.preventDefault();
+                // text
+                var text = $('#p1').text();
+                console.log(text);
+            });
+            $('#username').on('click', function (e) {
+                e.preventDefault();
+                // text
+                var val = $('input[name="username"]').val();
+                console.log(val);
+            });
+            $('#content').on('click', function (e) {
+                e.preventDefault();
+                // text
+                var val = $('textarea').val();
+                console.log(val);
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <p id="p1">noi dung the p</p> <a href="#" id="p">lấy nôi dung</a>
+    <div>
+        <a href="#">the a</a>
+        noi dung the div
+    </div> <a href="#" id="div">lấy nôi dung</a>
+    <form action="" name="" method="post">
+        <p><input name="username" type="text" value=""> <a href="#" id="username">lấy nôi dung</a> </p>
+        <p>
+            <textarea name="content"></textarea> <a href="#" id="content">lấy nôi dung</a>
+        </p>
+    </form>
+
+</body>
+</html>

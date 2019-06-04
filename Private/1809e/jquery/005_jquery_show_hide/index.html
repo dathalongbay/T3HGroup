@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        // đại đa số các lệnh jquery đều ở trong document ready
+        //$(document).ready();
+
+        // callback là 1 hàm không có tên function (){}
+
+        $(document).ready(function (){
+            // Selector ID
+            $('#hien').on('click', function (e) {
+                e.preventDefault();
+                $('#target').show();
+            });
+
+            $('#an').on('click', function (e) {
+                e.preventDefault();
+                $('#target').hide();
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <p><a id="hien" href="https://www.w3schools.com/" target="_blank">Hiện</a> </p>
+    <p><a id="an" href="https://www.w3schools.com/" target="_blank">Ẩn</a> </p>
+<div id="target">
+    Examples
+    jQuery hide()
+    Demonstrates a simple jQuery hide() method.
+
+    jQuery hide()
+    Another hide() demonstration. How to hide parts of text.
+</div>
+
+</body>
+</html>

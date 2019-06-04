@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function (){
+            $('select').on('change', function () {
+                var id = $(this).val();
+                alert('id thanh pho ' + id);
+                var state = $(this).find('option:selected').data('state');
+                alert('day la dia danh ' + state);
+            });
+        });
+    </script>
+</head>
+<body>
+
+<form name="dangky" action="" method="post">
+    <label>Dia diem :</label>
+    <select name="diadiem">
+        <option value="1" data-state="mien bac" data-abc="H">Ha noi</option>
+        <option value="2" data-state="mien bac" data-abc="H">Hai phong</option>
+        <option value="3" data-state="mien trung" data-abc="D">Da Nang</option>
+        <option value="4" data-state="mien nam" data-abc="H">Ho Chi Minh</option>
+        <option value="5" data-state="mien nam" data-abc="L">Long An</option>
+    </select>
+</form>
+</body>
+</html>

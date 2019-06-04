@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function (){
+
+            $('a#click-here').on('click', function (e) {
+                e.preventDefault();
+                $('a.menu-nav').parent().css({"background":"red","border":"1px solid green"});
+            });
+
+            $('a#click-here-2').on('click', function (e) {
+                e.preventDefault();
+                $('a.menu-nav').parents().css({"border":"1px solid green"});
+            });
+
+            $('a#click-here-3').on('click', function (e) {
+                e.preventDefault();
+                $('a.menu-nav').parents('ul').css({"border":"1px solid green"});
+            });
+
+            $('a#click-here-4').on('click', function (e) {
+                e.preventDefault();
+                $('a.menu-nav').parentsUntil('nav').css({"border":"1px solid green"});
+            });
+
+            $('a#click-here-5').on('click', function (e) {
+                e.preventDefault();
+                $('a.menu-nav').parentsUntil('div.row').css({"border":"1px solid green"});
+            });
+        });
+    </script>
+</head>
+<body>
+    <a href="#" id="click-here">Parent</a>
+    <a href="#" id="click-here-2">Parents ko tham số</a>
+    <a href="#" id="click-here-3">Parents có tham số</a>
+    <a href="#" id="click-here-4">Parents until 1</a>
+    <a href="#" id="click-here-5">Parents until 2</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">1
+                <nav>
+                    <ul>
+                        <li><a href="#">Level 1</a>
+                            <ul>
+                                <li><a href="#" class="menu-nav">Menu 1</a></li>
+                                <li><a href="#" class="menu-nav">Menu 2</a></li>
+                                <li><a href="#" class="menu-nav">Menu 3</a></li>
+                                <li><a href="#" class="menu-nav">Menu 4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="col-sm-3">2</div>
+            <div class="col-sm-3">3</div>
+            <div class="col-sm-3">4</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function (){
+           $('a#clickme').on('click', function (e) {
+               e.preventDefault();
+               // Inserts content at the end of the selected elements
+
+               // .css() Phương thức sẽ thay đổi giá trị của thuộc tính css trên selector được chọn
+               $('div#target').css("background", "red");
+           });
+
+            $('a#clickme1').on('click', function (e) {
+                e.preventDefault();
+                // Inserts content at the end of the selected elements
+
+                // .css() Phương thức sẽ thay đổi giá trị của thuộc tính css trên selector được chọn
+                $('div#target').css({"background-color": "yellow", "font-size": "200%"});
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div id="target" class="content1">The div
+        <p>The p 1</p>
+        <p>The p 2</p>
+        <p>The p 3</p>
+    </div>
+    <a href="#" id="clickme">Click</a>
+    <a href="#" id="clickme1">Click 1</a>
+</body>
+</html>
