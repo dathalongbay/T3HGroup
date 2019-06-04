@@ -1,0 +1,2 @@
+# namespaces
+Namespace trong PHP
