@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+    Mảng trong js
+    Mảng là kiểu dữ liệu để lưu trữ nhiều giá trị trong 1 biến duy nhất
+    Chú ý key ( số thứ tự ) trong mảng đếm từ 0
+</pre>
+
+<script type="text/javascript">
+
+    // khai báo mảng trong js
+    var students1 = ["nguyen van a", "nguyen van b", "nguyen van c"];
+
+    console.log(students1);
+
+    // cách 2 để khai báo mảng
+    var students2 = new Array("nguyen van a", "nguyen van b", "nguyen van c");
+
+    console.log(students2);
+
+    console.log("độ dài của mảng");
+    console.log(students1.length);
+    console.log(students2.length);
+
+    console.log("lặp mảng 1");
+    for(var i = 0;i < students1.length; i++) {
+        // in ra các phần tử của mang
+        console.log(students1[i]);
+    }
+
+    console.log("lặp mảng 2");
+    for(var i = 0;i < students2.length; i++) {
+        // in ra các phần tử của mang
+        console.log(students2[i]);
+    }
+
+    // in ra các phần tử của mảng bằng cách truy cập trực tiếp
+    console.log("in ra các phần tử của mảng bằng cách truy cập trực tiếp");
+    console.log(students1[0]);
+    console.log(students1[1]);
+    console.log(students1[2]);
+
+    /**
+     * Bài tập dùng vòng lặp while in ra các phần tử của mảng
+     *
+     */
+</script>
+</body>
+</html>
