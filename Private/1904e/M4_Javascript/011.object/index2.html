@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+    Method trong object
+</pre>
+
+<script type="text/javascript">
+
+    // khai báo 1 đối tượng trong js
+    // fullname là phương thức
+    var student = {
+        first_name:"an",last_name:"nguyen van",
+        age:21,location:"bắc ninh", point: 7,
+        fullname: function () {
+            // method ( phương thức trong object )
+            // để truy vào chính bản thân object bên trong object thì sẽ sử dụng từ khóa this
+            return this.first_name + " " + this.last_name;
+        },
+        degree:function () {
+            if (this.point >= 5) {
+                return "thi đỗ";
+            } else {
+                return "trượt";
+            }
+        }
+    };
+
+    // gọi đến method
+    console.log(student.fullname());
+    console.log(student.degree());
+
+
+
+</script>
+</body>
+</html>
