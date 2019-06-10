@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+    trong vòng lặp nếu gặp continue bỏ qua lần chạy hiện tại
+    và chuyển sang lần chạy tiếp theo
+</pre>
+
+<script type="text/javascript">
+    console.log("continue for");
+    for(var i = 1; i <= 10; i++) {
+
+        if (i == 5) {
+            // break dừng vòng lặp
+            continue;
+        }
+        console.log(i);
+    }
+    console.log("continue while");
+
+    /*var n = 1;
+    while(n <= 10) {
+        if (n == 5) {
+            // break dừng vòng lặp
+            //continue;
+        }
+        console.log(n);
+        n++;
+    }*/
+
+</script>
+</body>
+</html>
