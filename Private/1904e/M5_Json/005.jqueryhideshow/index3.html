@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+<pre>
+    toggle là sự kiến hợp của show() và hide()
+    toggle(speed, callback);
+</pre>
+
+<div class="target" style="padding: 40px; background: orange">
+    Nội dung thẻ div
+</div>
+
+<div style="margin: 20px">
+    <button id="toggle">Toggle</button>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $("#toggle").on("click", function () {
+            $(".target").toggle(2000,function () {
+                alert("callback");
+            });
+        });
+
+
+
+    });
+</script>
+</body>
+</html>
