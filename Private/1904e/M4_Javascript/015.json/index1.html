@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<pre>
+    JSON là cú pháp cho việc lưu trữ thông tin và trao đổi dữ liệu .
+    JSON là văn bản ( text ) . Chúng ta có thể chuyển định dạng JSON sang Javascript object
+    và ngược lại .
+</pre>
+<script type="text/javascript">
+    var student = {name:"hoàng văn vinh", age: 21, location:"bắc ninh"};
+    console.log(student);
+    /**
+     * Chuyển js object student => Json
+     */
+    var studentJson = JSON.stringify(student);
+    console.log(studentJson);
+</script>
+</body>
+</html>
