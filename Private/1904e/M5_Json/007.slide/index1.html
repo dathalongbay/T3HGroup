@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+<pre>
+    slide
+</pre>
+
+<div id="title" style="background: green">Title</div>
+<div id="desc" style="background: orange">Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+
+<button id="up">Slide Up</button>
+<button id="down">Slide Down</button>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $("#up").on("click", function () {
+           $("#desc").slideUp();
+        });
+
+        $("#down").on("click", function () {
+            $("#desc").slideDown();
+        });
+
+
+
+    });
+</script>
+</body>
+</html>
