@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<pre>
+    width() : lấy độ rộng của thẻ html
+    height() : lấy độ cao của thẻ html
+    innerWidth() : lấy độ rộng của thẻ html + padding left + padding right
+    innerHeight() : lấy độ cao của thẻ html + padding top + padding bottom
+    outerWidth() : lấy độ rộng của thẻ html + padding left + padding right + border
+    outerHeight() : lấy độ cao của thẻ html + padding top + padding bottom + border
+    outerWidth(true) : lấy độ rộng của thẻ html + padding left + padding right + border + margin
+    outerHeight(true) : lấy độ cao của thẻ html + padding top + padding bottom + border + margin
+</pre>
+<div id="target" style="border: 1px solid red; padding: 50px; margin: 50px">
+    Nội dung thẻ div
+</div>
+
+<h1>Thông số của thẻ ( đơn vị pixel )</h1>
+<p id="w"> width() : </p>
+<p id="h"> height() : </p>
+
+<p>Các bạn sẽ làm các trương hợp : innerWidth + innerHeight + outerWidth + outerHeight</p>
+
+<div style="margin-top: 30px">
+    <button id="control">Tính toán</button>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#control").on("click", function () {
+
+            var w = $("#target").width();
+            var h = $("#target").height();
+            $("#w").append(w);
+            $("#h").append(h);
+        });
+    });
+</script>
+
+</body>
+</html>
