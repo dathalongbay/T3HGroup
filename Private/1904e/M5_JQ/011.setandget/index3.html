@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+<pre>
+    val() dùng để lấy giá trị trong ô input, text area , các thẻ nhập liệu trong form
+    val(value) dùng để đặt giá trị trong ô input, text area , các thẻ nhập liệu trong form
+</pre>
+
+<form>
+    <p>
+        Họ tên : <input type="text" name="source" value="">
+    </p>
+    <p>
+        Họ tên copy : <input type="text" name="target" value="">
+    </p>
+</form>
+
+<button id="move">Move</button>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#move").on("click", function () {
+
+
+            // selector theo thuộc tính
+            var value = $("input[name='source']").val();
+
+            console.log(value);
+
+            $("input[name='target']").val(value);
+
+
+        });
+
+    });
+</script>
+</body>
+</html>
