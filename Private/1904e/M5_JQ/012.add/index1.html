@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Jquery add content </h1>
+<pre>
+    append() - Inserts content at the end of the selected elements
+    append() - Chèn nội dung vào cuối của thẻ selector
+    prepend() - Inserts content at the beginning of the selected elements
+    prepentd() - CHèn nội dung vào đầu của selector
+    after() - Inserts content after the selected elements
+    after() - chèn nội dung và sau thẻ selector
+    before() - Inserts content before the selected elements
+    before() - chèn nội dung vào trước selector
+
+</pre>
+
+<div id="target" style="padding: 50px 30px">
+    Nội dung của div
+</div>
+
+
+<div style="margin-top: 50px">
+    <button id="control-append">append</button>
+    <button id="control-prepend">prepend</button>
+    <button id="control-after">after</button>
+    <button id="control-before">before</button>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#control-append").on("click", function () {
+            $("#target").append("<div>Nội dung phía cuôi bên trong thẻ selector</div>");
+        });
+        $("#control-prepend").on("click", function () {
+            $("#target").prepend("<div>Nội dung phía đầu bên trong thẻ selector</div>");
+        });
+        $("#control-after").on("click", function () {
+            $("#target").after("<div>Nội dung phía cuôi bên ngoài thẻ selector</div>");
+        });
+        $("#control-before").on("click", function () {
+            $("#target").before("<div>Nội dung phía đầu bên ngoài thẻ selector</div>");
+        });
+    });
+</script>
+
+
+</body>
+</html>
