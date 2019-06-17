@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+<pre>
+    html() dùng để lấy html và văn bản bên trong
+    html(content_html) dùng để đặt html
+</pre>
+
+<p id="source">
+    <span style="color: red">test html</span>
+</p>
+
+<p id="target">Nội dung ban đầu</p>
+
+<button id="move">Move</button>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#move").on("click", function () {
+
+            var content_html = $("#source").html();
+
+            console.log(content_html);
+
+            $("#target").html(content_html);
+
+
+        });
+
+    });
+</script>
+</body>
+</html>
