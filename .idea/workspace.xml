@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da4ee5b2-767b-4d56-b751-92cce1414786" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Private/1904e/M6_PHP/007.function/index3.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/002.vd2/index4.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/007.function/index1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="652">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/007.function/index3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/007.function/index2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="42" selection-start-line="42" selection-end-line="44" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/002.vd2/sample.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="7" lean-forward="true" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index3a.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index3b.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>j</find>
+      <find>console.log(&quot;vị trí xuất hiện của chuỗi tìm kiếm trong chuỗi mẹ &quot; + pos);</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>n</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/008.loop/index1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/008.loop/index2.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/008.loop/index3.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/008.loop/index4.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/008.loop/index5.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index2.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index3.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index4.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index5.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index6.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index7.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index8.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/010.string/index1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/010.string/index2.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/010.string/index3.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/011.object/index1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/011.object/index2.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/012.date/index1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/012.date/index2.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/013.event/index1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/014.output/index.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M4_Javascript/014.output/index2.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/011.setandget/index1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/011.setandget/index2.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/011.setandget/index3.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/012.add/index1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/013.remove/index1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/014.Class/index1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/015.css/index2.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/016.dimension/index1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/015.css/index1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/017.ancestor/parents.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/017.ancestor/parents1.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/017.ancestor/parentsUntil.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M5_JQ/017.ancestor/parent.html" />
+        <option value="$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index3a.php" />
+        <option value="$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index3b.php" />
+        <option value="$PROJECT_DIR$/Private/1904e/M6_PHP/007.function/index1.php" />
+        <option value="$PROJECT_DIR$/Private/1904e/M6_PHP/007.function/index2.php" />
+        <option value="$PROJECT_DIR$/Private/1904e/M6_PHP/007.function/index3.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Private/1809e/bootstrap/bootstrap-3.3.7/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="T3HGroup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="T3HGroup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="T3HGroup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="T3HGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="T3HGroup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="T3HGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="1904e" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="T3HGroup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="T3HGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="1904e" type="462c0819:PsiDirectoryNode" />
+              <item name="M6_PHP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="T3HGroup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="T3HGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="1904e" type="462c0819:PsiDirectoryNode" />
+              <item name="M6_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="002.vd2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="T3HGroup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="T3HGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="Private" type="462c0819:PsiDirectoryNode" />
+              <item name="1904e" type="462c0819:PsiDirectoryNode" />
+              <item name="M6_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="007.function" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\T3HGroup\Private\1904e\M6_PHP\007.function" />
+      <recent name="C:\xampp\htdocs\T3HGroup\Private\1904e\M6_PHP\006.loop" />
+      <recent name="C:\xampp\htdocs\T3HGroup\Private\1904e\M5_JQ\011.setandget" />
+      <recent name="C:\xampp\htdocs\T3HGroup\Private\1904e\M4_Javascript\014.output" />
+      <recent name="C:\xampp\htdocs\T3HGroup\Private\1904e\M4_Javascript\011.object" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da4ee5b2-767b-4d56-b751-92cce1414786" name="Default Changelist" comment="" />
+      <created>1560165021081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560165021081</updated>
+      <workItem from="1560165022285" duration="9988000" />
+      <workItem from="1560251257040" duration="1810000" />
+      <workItem from="1560683284074" duration="339000" />
+      <workItem from="1560770364109" duration="7915000" />
+      <workItem from="1561893006666" duration="12000" />
+      <workItem from="1562411069650" duration="4216000" />
+    </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1560165678254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560165678254</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <created>1560166570035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560166570035</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <created>1560167831857</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560167831857</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <created>1560169024209</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560169024209</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1">
+      <created>1560169345563</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560169345563</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1">
+      <created>1560169992277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560169992277</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <created>1560170800828</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560170800828</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1">
+      <created>1560171448388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560171448388</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1">
+      <created>1560172355156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560172355156</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1">
+      <created>1560173343518</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560173343518</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1">
+      <created>1560174002634</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560174002634</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1">
+      <created>1560174400223</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560174400223</updated>
+    </task>
+    <task id="LOCAL-00013" summary="1">
+      <created>1560174772482</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560174772482</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1">
+      <created>1560175107245</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560175107245</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1">
+      <created>1560770665871</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560770665871</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1">
+      <created>1560771364690</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560771364690</updated>
+    </task>
+    <task id="LOCAL-00017" summary="1">
+      <created>1560771904026</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1560771904026</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1">
+      <created>1560772501161</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1560772501161</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1">
+      <created>1560772534465</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1560772534465</updated>
+    </task>
+    <task id="LOCAL-00020" summary="1">
+      <created>1560772582420</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1560772582420</updated>
+    </task>
+    <task id="LOCAL-00021" summary="1">
+      <created>1560772617041</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1560772617041</updated>
+    </task>
+    <task id="LOCAL-00022" summary="1">
+      <created>1560773347440</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1560773347440</updated>
+    </task>
+    <task id="LOCAL-00023" summary="1">
+      <created>1560774044507</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1560774044507</updated>
+    </task>
+    <task id="LOCAL-00024" summary="1">
+      <created>1560774971459</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1560774971459</updated>
+    </task>
+    <task id="LOCAL-00025" summary="1">
+      <created>1560776392235</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1560776392235</updated>
+    </task>
+    <task id="LOCAL-00026" summary="1">
+      <created>1560777793154</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1560777793154</updated>
+    </task>
+    <task id="LOCAL-00027" summary="1">
+      <created>1562413086655</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1562413086655</updated>
+    </task>
+    <task id="LOCAL-00028" summary="1">
+      <created>1562415922352</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1562415922352</updated>
+    </task>
+    <task id="LOCAL-00029" summary="1">
+      <created>1562417879244</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1562417879244</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24280000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27297297" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295063" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/006.ifelse/index2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/008.loop/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/008.loop/index3.php" />
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/008.loop/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="44" column="13" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/008.loop/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/008.loop/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/008.loop/index5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/009.array/index8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/010.string/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/010.string/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/010.string/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/011.object/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/011.object/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/012.date/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/012.date/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/013.event/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" selection-start-line="18" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/014.output/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M4_Javascript/014.output/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/001.install/index1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/001.install/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/010.this/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/011.setandget/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/011.setandget/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/011.setandget/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/012.add/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/013.remove/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/014.Class/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/015.css/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/015.css/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="88" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/016.dimension/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/017.ancestor/parent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/017.ancestor/parents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="7" selection-start-line="40" selection-start-column="9" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/017.ancestor/parents1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M5_JQ/017.ancestor/parentsUntil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index3a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index3b.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/006.loop/index3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/002.vd2/index4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/007.function/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="42" selection-start-line="42" selection-end-line="44" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/007.function/index1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/002.vd2/sample.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="7" lean-forward="true" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Private/1904e/M6_PHP/007.function/index3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
