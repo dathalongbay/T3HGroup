@@ -40,7 +40,9 @@ function tinhluong($luongthang,$songaycong) {
     return $luongthuclinh;
 }
 // gọi hàm
-echo "<br> Lương tháng của bạn là : " . tinhluong(10000000, 1);
+$x = 10000000;
+$y = 12;
+echo "<br> Lương tháng của bạn là : " . tinhluong($x, $y);
 
 ?>
 
