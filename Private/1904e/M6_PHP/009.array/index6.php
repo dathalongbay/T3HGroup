@@ -30,6 +30,7 @@ $array1[4] = "thành phố hồ chí minh";
 echo "<pre>";
 print_r($array1);
 echo "</pre>";
+
 ?>
 </body>
 </html>
