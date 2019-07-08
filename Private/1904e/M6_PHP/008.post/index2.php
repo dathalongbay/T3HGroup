@@ -17,15 +17,11 @@
     và value trong mảng sẽ là giá trị của các ô input tương ứng
 </pre>
 
-<?php
-echo "<pre>";
-print_r($_POST);
-echo "</pre>";
-?>
+
 
 <div class="container">
     <div class="row">
-        <form name="demo" action="" method="post">
+        <form name="demo" action="process.php" method="post">
 
             <p>
                 Username : <input name="username" type="text" value="">
