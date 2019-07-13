@@ -16,10 +16,16 @@
     <li>Bắc kinh</li>
     <li>Thâm quyết</li>
     <li>Thành đô</li>
+</ul>
+<ul>
     <li>Hàn quốc</li>
     <li>Seun</li>
-    ...
 </ul>
+<ul>
+    <li>nhật bản</li>
+    <li>tokyo</li>
+</ul>
+...
 
 <?php
 $array3 = array();
