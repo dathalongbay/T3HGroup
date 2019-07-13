@@ -21,6 +21,18 @@ $array3["vn"] = array("name" => "việt nam", "city" => array("hà nội", "hồ
 echo "<pre>";
 print_r($array3);
 echo "</pre>";
+
+foreach($array3 as $keyCountry => $country) {
+    foreach ($country as $keyCities => $cities) {
+        if ($keyCities == "city") {
+            foreach ($cities as $keyCity => $city) {
+                echo "<br> " . $city;
+            }
+        }
+    }
+}
+
+
 ?>
 </body>
 </html>
