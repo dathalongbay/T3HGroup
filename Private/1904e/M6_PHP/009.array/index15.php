@@ -13,17 +13,24 @@
 Cấu trúc cần in ra
 <ul>
     <li>Trung quốc</li>
-    <li>Bắc kinh</li>
-    <li>Thâm quyết</li>
-    <li>Thành đô</li>
+    <ul>
+        <li>Bắc kinh</li>
+        <li>Thâm quyết</li>
+        <li>Thành đô</li>
+    </ul>
 </ul>
 <ul>
     <li>Hàn quốc</li>
-    <li>Seun</li>
+    <ul>
+        <li>Seun</li>
+    </ul>
 </ul>
 <ul>
     <li>nhật bản</li>
-    <li>tokyo</li>
+    <ul>
+        <li>tokyo</li>
+        <li>kyoto</li>
+    </ul>
 </ul>
 ...
 
