@@ -13,4 +13,6 @@
 # sau khi cài xong thư viện phpmailer 
 # Vào kho chứa bên dưới lấy code về  https://github.com/dathalongbay/sendMail . copy file index.php vào thư mục các bạn vừa cài đặt phpmailer
 # Tiến hành đổi các thông số người gửi mail , người nhận mail , tài khoản mật khẩu xác thực ... để gửi mail thông qua pHP
+# Nhớ gửi mail cho bạn bên cạnh để xem chạy được chưa
+# chỉ cần chạy file index.php là biết đc có gửi đc hay ko
 
