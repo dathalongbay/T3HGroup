@@ -6,5 +6,5 @@
 # https://learnstockio.herokuapp.com/mysql1.html
 # https://learnstockio.herokuapp.com/mysql2.html
 # https://learnstockio.herokuapp.com/mysql3.html
-# Bạn nào làm xong phần SQL thì mở gmail bật kích hoạt 2 lớp theo hướng dân sau :
+# Bạn nào làm xong phần SQL thì mở gmail bật kích hoạt 2 lớp bằng số điện thoại sau đó làm theo hướng dân sau :
 # https://thinhweb.com/huong-dan-tao-mat-khau-ung-dung-cua-gmail/
