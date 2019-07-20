@@ -8,7 +8,7 @@
 # https://learnstockio.herokuapp.com/mysql3.html
 # Bạn nào làm xong phần SQL thì mở gmail bật kích hoạt 2 lớp bằng số điện thoại sau đó làm theo hướng dân sau :
 # https://thinhweb.com/huong-dan-tao-mat-khau-ung-dung-cua-gmail/
-#  Các bạn làm xong rồi . Mở video composer để cài đặt thư viện phpmailer
+#  Các bạn làm xong rồi . Mở video composer bài tập về nhà hôm trước để cài đặt thư viện phpmailer
 # video dạy search thư viện dompdf chỉ cần thay bằng chữ phpmailer là được
 # sau khi cài xong thư viện phpmailer 
 # Vào kho chứa bên dưới lấy code về  https://github.com/dathalongbay/sendMail . copy file index.php vào thư mục các bạn vừa cài đặt phpmailer
