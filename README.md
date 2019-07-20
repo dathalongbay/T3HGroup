@@ -15,4 +15,7 @@
 # Tiến hành đổi các thông số người gửi mail , người nhận mail , tài khoản mật khẩu xác thực ... để gửi mail thông qua pHP
 # Nhớ gửi mail cho bạn bên cạnh để xem chạy được chưa
 # chỉ cần chạy file index.php là biết đc có gửi đc hay ko
+# Bạn nào xong rồi đọc giúp thầy 2 bài viết này nhé
+# https://toidicode.com/phuong-thuc-get-va-post-trong-php-64.html
+# https://toidicode.com/session-va-cookie-trong-php-65.html
 
