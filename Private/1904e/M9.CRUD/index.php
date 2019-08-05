@@ -52,6 +52,10 @@
                          * và trả về cho biến $row
                          */
                         while($row = $result->fetch_assoc()) {
+
+                            echo "<pre>";
+                            print_r($row);
+                            echo "</pre>";
                             ?>
                             <tr>
                                 <td><?php echo $row["id"] ?></td>
