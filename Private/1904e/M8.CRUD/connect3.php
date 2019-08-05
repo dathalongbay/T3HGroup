@@ -10,4 +10,4 @@ if ($connection->connect_error) {
     die("không thể kết nối đến csdl");
 }
 
-echo "kết nối đến CSDL thành công";
+echo "kết nối đến CSDL thành công ";
