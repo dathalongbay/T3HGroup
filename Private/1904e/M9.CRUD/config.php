@@ -14,7 +14,7 @@ define("DB_NAME", "appcrud");
  */
 $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD, DB_NAME);
 
-if ($connection->connect_error == true) {
+if (!$connection) {
     die("Không thể kết nối đến CSDL");
 }
 
