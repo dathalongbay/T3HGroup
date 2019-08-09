@@ -48,6 +48,7 @@ if (isset($_POST) && !empty($_POST)) {
      * $errors rỗng tức là không có lỗi
      */
     if (empty($errors)) {
+
         $name = $_POST['name'];
         $address = $_POST['address'];
         $salary = $_POST['salary'];
@@ -71,6 +72,7 @@ Thêm mới nhân viên thất bại !
          * Chuyển mảng $errors thành chuỗi = hàm implode()
          */
         $errors_string = implode("<br>", $errors);
+
         echo "<div class='alert alert-danger'>$errors_string</div>";
     }
 }
