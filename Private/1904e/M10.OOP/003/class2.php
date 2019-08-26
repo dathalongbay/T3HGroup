@@ -17,11 +17,8 @@ class Student {
      * 3 - bản thân trong class đó
      * @var string
      */
-    public $name1 = "demo public 1";
+    protected $name1 = "demo public 1";
 
-    protected $name2 = "demo protected 2";
-
-    private $name3 = "demo private 3";
 
     public function getInfo() {
         echo "<br>" . __METHOD__;
@@ -43,18 +40,23 @@ class ChildStudent extends Student {
 
 /**
  * Bên ngoài của class
+ *
  */
 $an = new Student();
-echo "<br>" . $an->name1;
+// truy cập từ bên ngoài class
+//echo "<br>" . $an->name1;
+
+// truy cập từ bên trong class
 echo "<br>" . $an->getInfo();
 
+// truy cập từ class kế thừa
 $child = new ChildStudent();
 echo "<br>" . $child->getParentInfo();
 
-/*echo "<br>" . $an->name2;
-echo "<br>" . $an->name3;*/
-
 /**
- * Kết luận : thuộc tính và method có giới hạn truy cập là public thì
- * có thể truy cập ở mọi nơi
+ * Kết luận : thuộc tính va phương thức có giới hạn là protected
+ * thì có thể truy cập từ bên trong class đo
+ * và class kế thừa từ nó
  */
+
+
