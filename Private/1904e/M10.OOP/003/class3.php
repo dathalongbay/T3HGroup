@@ -20,6 +20,7 @@ class Student {
     private $name1 = "demo public 1";
 
 
+
     public function getInfo() {
         echo "<br>" . __METHOD__;
         // Bên trong class
