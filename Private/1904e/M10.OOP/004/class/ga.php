@@ -7,6 +7,10 @@
  */
 include_once "../abstract/dongvat.php";
 
+include_once "../interface/an.php";
+include_once "../interface/keu.php";
+include_once "../interface/sinhsan.php";
+
 class Ga extends Dongvat {
 
     public function tenloai() {
