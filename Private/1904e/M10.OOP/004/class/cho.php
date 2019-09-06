@@ -26,6 +26,7 @@ class Cho extends Dongvat implements An, Keu, Sinhsan {
 
     public function tenloai() {
         echo "tôi là chó";
+
     }
 
 
@@ -36,17 +37,21 @@ class Cho extends Dongvat implements An, Keu, Sinhsan {
     public function toinayangi()
     {
         // TODO: Implement toi_nay_an_gi() method.
+        echo "chó nhà nghèo ăn cám , chó nhà giàu ăn thịt bò";
 
     }
 
     public function keunhuthenao()
     {
         // TODO: Implement keu_nhu_the_nao() method.
+        echo "chó kêu gâu gâu";
     }
 
     public function sinhsannhuthenao()
     {
         // TODO: Implement sinhsannhuthenao() method.
+        echo "chó đẻ con. thời gian mang thai mỗi lứa khoảng 3 tháng";
+
     }
 
 }

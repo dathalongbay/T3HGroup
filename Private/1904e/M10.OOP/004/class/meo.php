@@ -21,4 +21,24 @@ class Meo extends Dongvat {
     public function thongtin() {
         echo "tôi là mèo có 4 chân hay nằm góc bếp";
     }
+
+    public function toinayangi()
+    {
+        // TODO: Implement toi_nay_an_gi() method.
+        echo "mèo ăn thịt chuột";
+    }
+
+
+    public function keunhuthenao()
+    {
+        // TODO: Implement keu_nhu_the_nao() method.
+        echo "mèo kêu meo meo";
+    }
+
+    public function sinhsannhuthenao()
+    {
+        // TODO: Implement thongtinsinhsan() method.
+        echo "mèo sinh sản mỗi lứa 2 đến 4 con mỗi lứa khoảng 5 tháng";
+
+    }
 }

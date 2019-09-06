@@ -22,4 +22,25 @@ class Ga extends Dongvat {
         echo "gà là loài 2 chân năng từ 1 đến 3 cân tùy giống gà";
     }
 
+
+
+    public function toinayangi()
+    {
+        // TODO: Implement toi_nay_an_gi() method.
+        echo "gà ăn thóc";
+    }
+
+
+    public function keunhuthenao()
+    {
+        // TODO: Implement keu_nhu_the_nao() method.
+        echo "gà kêu cục ta cục tác";
+    }
+
+    public function sinhsannhuthenao()
+    {
+        // TODO: Implement thongtinsinhsan() method.
+        echo "gà đẻ trứng";
+    }
+
 }
