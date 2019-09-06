@@ -11,7 +11,7 @@ include_once "../interface/an.php";
 include_once "../interface/keu.php";
 include_once "../interface/sinhsan.php";
 
-class Ga extends Dongvat {
+class Ga extends Dongvat implements An, Keu, Sinhsan{
 
     public function tenloai() {
         echo "tôi là gà";
