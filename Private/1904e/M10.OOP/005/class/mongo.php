@@ -9,6 +9,7 @@
 class Mongo extends Database implements Crud , Log , Search {
 
 
+
     public function connect()
     {
         // TODO: Implement connect() method.

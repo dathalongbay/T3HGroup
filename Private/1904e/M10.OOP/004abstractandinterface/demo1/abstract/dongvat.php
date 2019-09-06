@@ -11,9 +11,11 @@
 abstract class Dongvat {
 
 
+
+    // tên loài
     public abstract function tenloai();
 
-
+    // thông tin
     public abstract function thongtin();
 
 
