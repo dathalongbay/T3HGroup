@@ -9,4 +9,12 @@ include_once "../abstract/dongvat.php";
 
 class Meo extends Dongvat {
 
+    public function tenloai() {
+        echo "tôi là mèo";
+    }
+
+
+    public function thongtin() {
+        echo "tôi là mèo có 4 chân hay nằm góc bếp";
+    }
 }

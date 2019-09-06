@@ -9,4 +9,13 @@ include_once "../abstract/dongvat.php";
 
 class Ga extends Dongvat {
 
+    public function tenloai() {
+        echo "tôi là gà";
+    }
+
+
+    public function thongtin() {
+        echo "gà là loài 2 chân năng từ 1 đến 3 cân tùy giống gà";
+    }
+
 }
