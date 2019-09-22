@@ -17,5 +17,5 @@
 # Bạn nào xong rồi đọc giúp thầy 2 bài viết này nhé
 # https://toidicode.com/phuong-thuc-get-va-post-trong-php-64.html
 # https://toidicode.com/session-va-cookie-trong-php-65.html
-# Các bạn nghỉ sớm chút nhé . Thứ 2 mình nghỉ phải cuối tuần sau thầy mới nói bình thườn được mong các bạn thông cảm !
+
 
